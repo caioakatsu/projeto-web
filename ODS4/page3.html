@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>ODS Educação de Qualidade</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pontano+Sans&display=swap" 
+    rel="stylesheet">
+    
+</head>
+
+<body>
+    <div id="background">
+        <div class="mainBg"> </div>
+        <div class="mainBg screen1"> </div>
+        <div class="mainBg screen2"> </div>
+    </div>
+
+
+    <div id="masterPage">
+        <header>
+            <div class="headerMain">
+                <div id="boxLeft">
+                    <div id="containerLeft">
+                        <div class="itemBox">
+                            <button class="menu">
+                                <strong>
+                                    Menu
+                                </strong>
+                            </button>
+                            <div class="list">
+                                <a class="links" href=#h6-Sobre>Sobre</a>
+                                <a class="links" href=#Contatos>Contato</a>
+                            </div>
+                        </div> 
+                        <script>
+                            let click = document.querySelector('.menu');
+                            let list = document.querySelector('.list');
+                            click.addEventListener("click",()=>{
+                                list.classList.toggle('newlist');
+                            });
+                        </script>
+                    </div>
+                </div>
+
+                <div id="boxMiddle">
+                    <div id="containerMiddle">
+                        <div class="itemBox">
+                            <a href="index.html">
+                                <img src="assets/img/LECCO.png">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="boxRigth">
+                    <div id="containerRigth">
+                        <div class="itemBox"> 
+                            <a href="page4.html">
+                                <img src="assets/img/home.png" alt="">
+                            </a>
+                        </div>
+                        <div class="itemBox"> 
+                            <a href="page3.html"> 
+                                <img src="assets/img/EAD.png" alt=""> 
+                            </a>
+                        </div>
+                        <div class="itemBox"> 
+                            <a href="page2.html">
+                                <img src="assets/img/goal.png" alt="">
+                            </a>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </header>
+
+
+        <nav>
+            <div class="content">
+                <div class="slides">
+                    <input type="radio" name="slide" id="slide1" checked>
+                    <input type="radio" name="slide" id="slide2">
+                    <input type="radio" name="slide" id="slide3">
+
+
+                    <div class="slide s1">
+                        <a href="page2.html">
+                            <img src="assets/img/ODS3.png" alt="ODS">
+                        </a>
+                    </div>
+                    <div class="slide">
+                        <a href="page3.html">
+                            <img src="assets/img/EAD2.png" alt="EAD2">
+                        </a>
+                    </div>
+                    <div class="slide">
+                        <a href="page4.html">
+                            <img src="assets/img/estudosDicas.png" alt="Dicas de Estudo">
+                        </a>
+                    </div>
+
+
+                    <div class="navigation">
+                        <label class="bar" for="slide1"></label>
+                        <label class="bar" for="slide2"></label>
+                        <label class="bar" for="slide3"></label>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <section id="main1">
+            <div id="containerMain1">
+                <div id="containerText">
+                    <div id="textODS">
+                        <div id="boxText1">
+                            <h2 id="text1">
+                                EAD: A tecnologia a favor da educação
+                            </h2>
+                        </div> 
+                        <br>
+                        <div id="boxText2">
+                            <p id="text2">
+	                            Dentro do contexto da ODS 4, a inserção da tecnologia 
+                                no ambiente educacional tem se tornado cada vez mais 
+                                comum. Escolas, faculdades e universidades fazem da 
+                                tecnologia uma grande aliada no processo de aprendizagem, 
+                                pois estimula a criatividade e é atrativo para o estudante.
+                                <br> <br>
+                                O ensino a distância (EAD) é um modelo onde a tecnologia 
+                                é a principal aliada. Ou seja, os alunos podem estudar e 
+                                aprender em um ambiente virtual, utilizando a Internet 
+                                para se comunicar, assistir vídeo-aulas, tirar dúvidas e 
+                                resolver exercícios. Resumindo, tudo que é feito em uma 
+                                instituição de ensino é feito em um computador, tablet ou 
+                                smartphone. 
+                                <br> <br>            
+                                Esse modelo de ensino facilita o ingresso dos alunos no 
+                                ensino superior e nos cursos profissionalizantes. Essa 
+                                possibilidade de aprender em qualquer lugar onde haja 
+                                internet está atraindo muitos professores ao redor do mundo, assim como alunos que não têm nenhuma instituição de ensino próxima onde possam estudar ou que precisam coordenar o aprendizado com o seu dia a dia. 
+                                Na educação a distância, os alunos têm a oportunidade de 
+                                gerenciar seu próprio aprendizado, pois isso lhes dá muita 
+                                autonomia para estudar e “assistir” as aulas de acordo com 
+                                o tempo disponível.
+                            </p>
+                        </div>    
+                    </div>
+                </div>
+                
+                <div id="containerImg">
+                    <div>
+                        <img src="assets/img/EAD4.png" alt="EAD" class="imgODS"
+                        style="
+                            height: 400px;
+                            width: 700px;
+                            padding-bottom: 70px;">
+                    </div>
+                    <div>
+                        <img src="assets/img/EAD5.png" alt="EAD"
+                        style="
+                            height: 500px;
+                            width: 700px;
+                            padding-bottom: 70px;">
+                    </div>
+                </div>
+            </div>    
+        </section>
+
+        <section id="main2">
+            <div id="containerMain2">
+                <div id="containerImg2">
+                    <div>
+                        <img src="assets/img/EAD3.png" alt="EAD" class="imgODS2">
+                    </div>
+                </div>
+
+                <div id="containerText2">
+                    <div id="textODS2">
+                        <div id="boxText_b">
+                            <h2 id="text_b">
+                                Vantagens do EAD
+                            </h2>
+                        </div> 
+                        <div id="boxText_a">
+                            <p id="text_a">
+                                – Os alunos têm a possibilidade de buscar informações 
+                                por conta própria, pois com o acesso à internet é 
+                                possível realizar pesquisas sobre diversos assuntos;
+                                <br> <br>
+                                – Os métodos de ensino utilizados na EAD possibilitam a 
+                                troca de experiências entre os alunos;
+                                <br> <br>
+                                – As mídias e os ambientes virtuais permitem a 
+                                interação entre o aluno e o professor em tempo real;
+                                <br> <br>
+                                – A tecnologia utilizada no ensino a distância 
+                                possibilita uma maior proximidade e interação entre os 
+                                alunos graduandos e o corpo docente do curso;
+                                <br> <br>
+                                – Os alunos podem tirar suas dúvidas no próprio 
+                                ambiente virtual com tutores ou professores.
+                                <br> <br>
+                                – As aulas ficam disponíveis e o aluno pode acessá-las 
+                                quantas vezes quiser. Portanto, aqueles que perderam 
+                                alguma aula ou não entenderam algum conteúdo, poderão 
+                                revisá-los quando necessário.          
+                            </p>
+                        </div>
+                    </div>
+                </div>            
+        </section>
+
+        <footer class="pageFooter">
+            <div class="containerFooter">
+                <div class="row">
+                    <div>
+                        <h6 id="h6-Sobre">
+                            Sobre
+                        </h6>
+                        <p class="textFooter">
+                            Desenvolver quatro páginas
+                            <br>
+                            Página 1- Sobre as ODS
+                            <br>
+                            Página 2- Sobre a ODS 4 (Educação de Qualidade)
+                            <br>
+                            Página 3- Sobre o EAD2
+                            <br>
+                            Página 4- Dicas de estudo
+                        </p>
+                    </div>
+
+                    <div>
+                        <h6 id="Contatos">
+                            Contatos
+                        </h6>
+                        <ul class="contactFooter">
+                            <li>
+                                <p>
+                                    nome: Eduardo Takeo D. Atae
+                                    <br>
+                                    email: eduardotakeo098@gmail.com
+                                    <br>
+                                    github: Eduardo-Takeo098
+                                </p>
+                                <br>
+                            </li>
+                            <li>
+                                <p>
+                                    nome: Caue Nogueira Jose
+                                    <br>
+                                    email: Cauenogueiraj@gmail.com
+                                    <br>
+                                    github: cauenogueir
+                                </p>
+                                <br>
+                            </li>
+                            <li>
+                                <p>
+                                    nome: Caio Kenzo Akatsu
+                                    <br>
+                                    email: kenzocaio@gmail.com                                
+                                    <br>
+                                    github: caioakatsu
+                                </p>
+                                <br>
+                            </li>
+                            <li>
+                                <p>
+                                    nome: Otton sousa de santana
+                                    <br>
+                                    email: ottonsouzanto@gmail.com
+                                    <br>
+                                    github: tonnoob
+                                </p>
+                                <br>
+                            </li>
+                            <li>
+                                <p>
+                                    nome: Levi Cardoso Freire 
+                                    <br>
+                                    email: levicardoso0918@gmail.com 
+                                    <br>
+                                    github: Levitei
+                                </p>
+                                <br>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                        <hr class="footerBar">  
+                </div>        
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>ODS Educação de Qualidade</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pontano+Sans&display=swap" 
+    rel="stylesheet">
+    
+</head>
+
+<body>
+    <div id="background">
+        <div class="mainBg"> </div>
+        <div class="mainBg screen1"> </div>
+        <div class="mainBg screen2"> </div>
+    </div>
+
+
+    <div id="masterPage">
+        <header>
+            <div class="headerMain">
+                <div id="boxLeft">
+                    <div id="containerLeft">
+                        <div class="itemBox">
+                            <button class="menu">
+                                <strong>
+                                    Menu
+                                </strong>
+                            </button>
+                            <div class="list">
+                                <a class="links" href=#h6-Sobre>Sobre</a>
+                                <a class="links" href=#Contatos>Contato</a>
+                            </div>
+                        </div> 
+                        <script>
+                            let click = document.querySelector('.menu');
+                            let list = document.querySelector('.list');
+                            click.addEventListener("click",()=>{
+                                list.classList.toggle('newlist');
+                            });
+                        </script>
+                    </div>
+                </div>
+
+                <div id="boxMiddle">
+                    <div id="containerMiddle">
+                        <div class="itemBox">
+                            <a href="index.html">
+                                <img src="assets/img/LECCO.png">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="boxRigth">
+                    <div id="containerRigth">
+                        <div class="itemBox"> 
+                            <a href="page4.html">
+                                <img src="assets/img/home.png" alt="">
+                            </a>
+                        </div>
+                        <div class="itemBox"> 
+                            <a href="page3.html"> 
+                                <img src="assets/img/EAD.png" alt=""> 
+                            </a>
+                        </div>
+                        <div class="itemBox"> 
+                            <a href="page2.html">
+                                <img src="assets/img/goal.png" alt="">
+                            </a>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </header>
+
+
+        <nav>
+            <div class="content">
+                <div class="slides">
+                    <input type="radio" name="slide" id="slide1" checked>
+                    <input type="radio" name="slide" id="slide2">
+                    <input type="radio" name="slide" id="slide3">
+
+
+                    <div class="slide s1">
+                        <a href="page2.html">
+                            <img src="assets/img/ODS3.png" alt="ODS">
+                        </a>
+                    </div>
+                    <div class="slide">
+                        <a href="page3.html">
+                            <img src="assets/img/EAD2.png" alt="EAD2">
+                        </a>
+                    </div>
+                    <div class="slide">
+                        <a href="page4.html">
+                            <img src="assets/img/estudosDicas.png" alt="Dicas de Estudo">
+                        </a>
+                    </div>
+
+
+                    <div class="navigation">
+                        <label class="bar" for="slide1"></label>
+                        <label class="bar" for="slide2"></label>
+                        <label class="bar" for="slide3"></label>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <section id="main1">
+            <div id="containerMain1">
+                <div id="containerText">
+                    <div id="textODS">
+                        <div id="boxText1">
+                            <h2 id="text1">
+                                Dicas para estudar em casa
+                            </h2>
+                        </div> 
+                        <br>
+                        <div id="boxText2">
+                            <p id="text2">
+                                1. Crie uma rotina de estudos
+                                A rotina aumenta o foco, a produtividade, o desempenho 
+                                e o estudante fica cada vez mais concentrado e 
+                                confiante. O principal objetivo da rotina é auxiliar 
+                                na organização dos estudos, para assim melhorar o 
+                                aprendizado a cada dia. <br>
+                                “Rotina é algo maravilhoso para a criança e o adolescente. Ela é importante para o corpo, diminui o stress e melhora o ambiente”, acrescenta o especialista.
+                                <br> <br>
+                                2. Evite distrações
+                                Na hora de estudar, um dos maiores problemas é a 
+                                distração. Com isso a qualidade do estudo fica 
+                                comprometida e perdemos foco e tempo. Para evitar 
+                                distrações, estabeleça horários e locais de estudo.
+                            </p>
+                        </div>    
+                    </div>
+                </div>
+                
+                <div id="containerImg">
+                    <div>
+                        <img src="assets/img/estudos1.png" alt="Logo ODS" class="imgODS"
+                        style="
+                            width: 500px;
+                            height: 400px;
+                            padding-top: 100px;">
+                    </div>
+                </div>
+            </div>    
+        </section>
+
+        <section id="main2">
+            <div id="containerMain2">
+                <div id="containerImg2">
+                    <div>
+                        <img src="assets/img/estudos2.png" alt="Logo ODS" class="imgODS2"
+                        style="
+                                height: 500px;">
+                    </div>
+                </div>
+
+                <div id="containerText2">
+                    <div id="textODS2">
+                        <div id="boxText_a">
+                            <p id="text_a">
+                                3. Respeite seus limites
+                                Cada pessoa possui um ritmo diferente de estudo e cada 
+                                estudante precisa entender o tempo necessário para 
+                                aprender uma determinada matéria. Além disso, o corpo e 
+                                a mente necessitam de descanso, alimentação correta, 
+                                momentos de lazer e boas noites de sono. 
+                                <br> <br>
+                                “Se não estabelecer limites, seus níveis de estresse e 
+                                ansiedade aumentam e prejudicam a saúde e o aprendizado. 
+                                Portanto, reserve momentos para fazer o que gosta. 
+                                Com o corpo e mente sãos, o conhecimento é melhor 
+                                absorvido”, garante Piva.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>            
+        </section>
+
+
+        <footer class="pageFooter">
+            <div class="containerFooter">
+                <div class="row">
+                    <div>
+                        <h6 id="h6-Sobre">
+                            Sobre
+                        </h6>
+                        <p class="textFooter">
+                            Desenvolver quatro páginas
+                            <br>
+                            Página 1- Sobre as ODS
+                            <br>
+                            Página 2- Sobre a ODS 4 (Educação de Qualidade)
+                            <br>
+                            Página 3- Sobre o EAD2
+                            <br>
+                            Página 4- Dicas de estudo
+                        </p>
+                    </div>
+
+                    <div>
+                        <h6 id="Contatos">
+                            Contatos
+                        </h6>
+                        <ul class="contactFooter">
+                            <li>
+                                <p>
+                                    nome: Eduardo Takeo D. Atae
+                                    <br>
+                                    email: eduardotakeo098@gmail.com
+                                    <br>
+                                    github: Eduardo-Takeo098
+                                </p>
+                                <br>
+                            </li>
+                            <li>
+                                <p>
+                                    nome: Caue Nogueira Jose
+                                    <br>
+                                    email: Cauenogueiraj@gmail.com
+                                    <br>
+                                    github: cauenogueir
+                                </p>
+                                <br>
+                            </li>
+                            <li>
+                                <p>
+                                    nome: Caio Kenzo Akatsu
+                                    <br>
+                                    email: kenzocaio@gmail.com                                
+                                    <br>
+                                    github: caioakatsu
+                                </p>
+                                <br>
+                            </li>
+                            <li>
+                                <p>
+                                    nome: Otton sousa de santana
+                                    <br>
+                                    email: ottonsouzanto@gmail.com
+                                    <br>
+                                    github: tonnoob
+                                </p>
+                                <br>
+                            </li>
+                            <li>
+                                <p>
+                                    nome: Levi Cardoso Freire 
+                                    <br>
+                                    email: levicardoso0918@gmail.com 
+                                    <br>
+                                    github: Levitei
+                                </p>
+                                <br>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                        <hr class="footerBar">  
+                </div>        
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
